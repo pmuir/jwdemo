@@ -1,5 +1,5 @@
 extensions:
-- name: mavenCodeQuality
+- name: spotbugs
   namespace: jx
   parameters:
   - name: provider
