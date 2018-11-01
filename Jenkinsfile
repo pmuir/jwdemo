@@ -80,7 +80,6 @@ pipeline {
     }
         post {
             always {
-                sh "sleep 1000"
                 sh 'jx step post run'
             }
         }
