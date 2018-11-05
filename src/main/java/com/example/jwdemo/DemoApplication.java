@@ -14,4 +14,18 @@ public class DemoApplication {
 		return null;
 	}
 
+	public static double circumference(double diameter) {
+		return diameter * 3.141;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		DemoApplication toCompare = (DemoApplication) obj;
+		return toCompare == this;
+	}
+
+	@Override
+	public int hashCode() {
+		return super.hashCode();
+	}
 }
